@@ -19,7 +19,6 @@ body section.sesion1 {
 section.sesion1 section.sesion2 {
     position: absolute;
     max-width: 100%;
-    height: 490px;
     left: 50%;
     top: 50%;
     background-color: #fff;

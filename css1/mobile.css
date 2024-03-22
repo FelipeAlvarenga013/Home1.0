@@ -7,6 +7,7 @@ img {
 }
 
 section.sesion2 {
+    width: 350px;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -24,6 +25,7 @@ h2 {
 article#artigo1
 p {
     text-align: justify;
+    margin: 10px 0 10px 0;
 }
 
 form
@@ -40,7 +42,7 @@ section.input1 {
 
 section.input1
 input {
-    padding: 5px;
+    padding: 10px;
     width: 95%;
     border: none;
     border-radius: 10px;
@@ -54,7 +56,7 @@ section.input2 {
 
 section.input2
 input {
-    padding: 5px;
+    padding: 10px;
     width: 95%;
     border: none;
     border-radius: 10px;
@@ -74,7 +76,7 @@ section.input3
 input {
     color: #fff;
     width: 96%;
-    padding: 9px;
+    padding: 12px;
     border: none;
     cursor: pointer;
     margin: 5px 0 7px 0;
@@ -102,8 +104,8 @@ a:hover {
 section.input3
 a>p {
     width: 92%;
-    margin: auto;
-    padding: 5px;
+    margin: 0 auto 10px;
+    padding: 7px;
     border-radius: 10px;
     border: 1px solid #3B1F65;
     color: #3B1F65;
