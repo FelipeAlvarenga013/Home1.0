@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(90deg, #76316A, #3B1F65);
+}
+
+body section.sesion1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section.sesion1 section.sesion2 {
+    position: absolute;
+    max-width: 100%;
+    height: 490px;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    
+}
+

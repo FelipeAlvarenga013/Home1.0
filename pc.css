@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px) {
+    section.sesion1 section.sesion2 {
+        width: 900px;
+    }
+
+    section.sesion3 {
+        flex-direction: row-reverse;
+    }
+
+    section.sesion3 
+    section#img {
+        flex: 50%;
+    }
+
+    section.input3
+    input {
+        padding: 13px;
+    }
+
+    section.input3
+    a>p {
+        padding: 9px;
+    }
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 630px) {
+    section.sesion1
+    section.sesion2{
+        width: 700px;
+        height: 360px;
+        transition: .5s;
+    }
+
+    section.sesion3 {
+        display: flex;
+        height: 100%;
+    }
+
+    section.sesion3
+    section#img {
+        flex: 80%;
+        height: 100%;
+    }
+
+    section.sesion3
+    section#img>img {
+        height: 100%;
+    }
+
+    article.artigo2 {
+        height: 100%;
+    }
+
+    article.artigo2
+    p{
+        margin: 10px 0 10px 0;
+    }
+
+    section.input1
+    input {
+        padding: 10px 0 10px 0;
+    }
+
+    section.input2
+    input {
+        padding: 10px 0 10px 0;
+    }
+}

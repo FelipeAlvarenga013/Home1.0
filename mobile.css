@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+section#img
+img {
+    width: 100%;
+    height: 200px;
+}
+
+section.sesion2 {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+article {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+article#artigo1
+h2 {
+    text-align: center;
+}
+
+article#artigo1
+p {
+    text-align: justify;
+}
+
+form
+section.input1,section.input2 {
+    margin: 4px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #3B1F65;
+}
+section.input1 {
+    display: flex;
+    align-items: center;
+}
+
+section.input1
+input {
+    padding: 5px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    background-color: #94767F;
+}
+
+section.input2 {
+    display: flex;
+    align-items: center;
+}
+
+section.input2
+input {
+    padding: 5px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    background-color: #94767F;
+}
+
+section
+input::placeholder {
+    color: rgba(0, 0, 0, 0.253);
+}
+
+section.input3 {
+    text-align: center;
+}
+
+section.input3
+input {
+    color: #fff;
+    width: 96%;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0 7px 0;
+    border-radius: 10px;
+    background-color: #350852;
+}
+
+section.input3
+input:hover {
+    color: #350852;
+    background-color: #94767F;
+    transition: .2s;
+}
+
+section.input3
+a{
+    text-decoration: none;
+}
+
+section.input3
+a:hover {
+    text-decoration: underline;
+}
+
+section.input3
+a>p {
+    width: 92%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #3B1F65;
+    color: #3B1F65;
+}
